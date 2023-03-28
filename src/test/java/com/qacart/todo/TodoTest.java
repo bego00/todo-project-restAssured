@@ -20,7 +20,7 @@ public class TodoTest {
     @Story("should be abel to Add Todo")
     @Test(description = "should be abel to Add Todo")
     public void AddTodo() {
-
+        System.out.println("Test CI/CD");
         Todo todo = generateTodos();
         String token = UserSteps.generateToken();
         Response response = TodoApi.addTodo(todo, token);
