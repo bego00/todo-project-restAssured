@@ -1,0 +1,16 @@
+name: "Run restAssured TestCases"
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  test:
+    runs-on: windows
+    steps:
+      - uses: actions/chechout@v3
+      - uses: actions/setup-java@v3
+        with:
+          java-version: "20"
+          cache: maven
+      - run: mvn clean test
