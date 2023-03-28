@@ -2,53 +2,53 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-27T12:06:29 EET" name="Surefire suite" finished-at="2023-03-27T12:06:40 EET" duration-ms="11503">
+  <suite started-at="2023-03-28T13:33:11 EET" name="Surefire suite" finished-at="2023-03-28T13:33:20 EET" duration-ms="8653">
     <groups>
     </groups>
-    <test started-at="2023-03-27T12:06:29 EET" name="Surefire test" finished-at="2023-03-27T12:06:40 EET" duration-ms="11503">
+    <test started-at="2023-03-28T13:33:11 EET" name="Surefire test" finished-at="2023-03-28T13:33:20 EET" duration-ms="8653">
       <class name="com.qacart.todo.UserTest">
-        <test-method signature="getAllUsers()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-27T12:06:29 EET" name="getAllUsers" description="Get All Users" finished-at="2023-03-27T12:06:36 EET" duration-ms="7288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUsers -->
-        <test-method signature="LoginTest()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-27T12:06:29 EET" name="LoginTest" description="should be able to login" finished-at="2023-03-27T12:06:37 EET" duration-ms="8601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method signature="shouldNotBeLoginWithIncorrectPassword()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-27T12:06:29 EET" name="shouldNotBeLoginWithIncorrectPassword" description="should Not be abel to login with Incorrect Password" finished-at="2023-03-27T12:06:37 EET" duration-ms="8210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldNotBeLoginWithIncorrectPassword -->
-        <test-method signature="shouldNotBeAbleToRegisterWithTheSameEmail()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-27T12:06:29 EET" name="shouldNotBeAbleToRegisterWithTheSameEmail" description="Should Not Be Able To Register With The Same Email" finished-at="2023-03-27T12:06:37 EET" duration-ms="8601" status="PASS">
+        <test-method signature="shouldNotBeAbleToRegisterWithTheSameEmail()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-28T13:33:11 EET" name="shouldNotBeAbleToRegisterWithTheSameEmail" description="Should Not Be Able To Register With The Same Email" finished-at="2023-03-28T13:33:18 EET" duration-ms="6487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldNotBeAbleToRegisterWithTheSameEmail -->
-        <test-method signature="shouldBeAbleToRegister()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-27T12:06:29 EET" name="shouldBeAbleToRegister" description="Should be able to Register" finished-at="2023-03-27T12:06:37 EET" duration-ms="8210" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-28T13:33:11 EET" name="LoginTest" description="should be able to login" finished-at="2023-03-28T13:33:18 EET" duration-ms="6439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="shouldBeAbleToRegister()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-28T13:33:11 EET" name="shouldBeAbleToRegister" description="Should be able to Register" finished-at="2023-03-28T13:33:17 EET" duration-ms="5919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToRegister -->
+        <test-method signature="getAllUsers()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-28T13:33:11 EET" name="getAllUsers" description="Get All Users" finished-at="2023-03-28T13:33:16 EET" duration-ms="5028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method signature="shouldNotBeLoginWithIncorrectPassword()[pri:0, instance:com.qacart.todo.UserTest@1ba9117e]" started-at="2023-03-28T13:33:11 EET" name="shouldNotBeLoginWithIncorrectPassword" description="should Not be abel to login with Incorrect Password" finished-at="2023-03-28T13:33:17 EET" duration-ms="6252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeLoginWithIncorrectPassword -->
       </class> <!-- com.qacart.todo.UserTest -->
       <class name="com.qacart.todo.TodoTest">
-        <test-method signature="shouldNotAddTodoIfIsCompletedMissing()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-27T12:06:29 EET" name="shouldNotAddTodoIfIsCompletedMissing" description="should Not be able to AddTodo if Is_Completed missing " finished-at="2023-03-27T12:06:39 EET" duration-ms="10599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldNotAddTodoIfIsCompletedMissing -->
-        <test-method signature="deleteTodoByID()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-27T12:06:29 EET" name="deleteTodoByID" description="Should delete a Todo By ID" finished-at="2023-03-27T12:06:40 EET" duration-ms="11415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteTodoByID -->
-        <test-method signature="getAllTodos()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-27T12:06:29 EET" name="getAllTodos" description="Should get All Todos" finished-at="2023-03-27T12:06:39 EET" duration-ms="10592" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllTodos -->
-        <test-method signature="AddTodo()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-27T12:06:29 EET" name="AddTodo" description="should be abel to Add Todo" finished-at="2023-03-27T12:06:39 EET" duration-ms="10667" status="PASS">
+        <test-method signature="AddTodo()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-28T13:33:11 EET" name="AddTodo" description="should be abel to Add Todo" finished-at="2023-03-28T13:33:19 EET" duration-ms="7815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddTodo -->
-        <test-method signature="getTodoByID()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-27T12:06:29 EET" name="getTodoByID" description="Should get Todo By Id" finished-at="2023-03-27T12:06:40 EET" duration-ms="11380" status="PASS">
+        <test-method signature="getAllTodos()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-28T13:33:11 EET" name="getAllTodos" description="Should get All Todos" finished-at="2023-03-28T13:33:19 EET" duration-ms="7773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllTodos -->
+        <test-method signature="deleteTodoByID()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-28T13:33:11 EET" name="deleteTodoByID" description="Should delete a Todo By ID" finished-at="2023-03-28T13:33:20 EET" duration-ms="8500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTodoByID -->
+        <test-method signature="getTodoByID()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-28T13:33:11 EET" name="getTodoByID" description="Should get Todo By Id" finished-at="2023-03-28T13:33:20 EET" duration-ms="8493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTodoByID -->
+        <test-method signature="shouldNotAddTodoIfIsCompletedMissing()[pri:0, instance:com.qacart.todo.TodoTest@696da30b]" started-at="2023-03-28T13:33:11 EET" name="shouldNotAddTodoIfIsCompletedMissing" description="should Not be able to AddTodo if Is_Completed missing " finished-at="2023-03-28T13:33:19 EET" duration-ms="7803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotAddTodoIfIsCompletedMissing -->
       </class> <!-- com.qacart.todo.TodoTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

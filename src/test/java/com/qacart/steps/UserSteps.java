@@ -12,7 +12,7 @@ public class UserSteps {
         String firstName = faker.name().firstName();
         String lastName = faker.name().lastName();
         String email = faker.internet().emailAddress();
-        String password = "1234546";
+        String password = "1234546646";
         return new User(firstName, lastName, email, password);
     }
 
